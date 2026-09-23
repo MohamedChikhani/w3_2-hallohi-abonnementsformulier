@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abonnement aanvragen</title>
+</head>
+
+<body>
+
+    <form>
+
+        <!-- Naam -->
+        <label for="voornaam">Voornaam</label><br>
+        <input type="text" id="voornaam" name="voornaam"><br><br>
+
+        <label for="achternaam">Achternaam</label><br>
+        <input type="text" id="achternaam" name="achternaam"><br><br>
+
+
+        <!-- Aanhef -->
+        <label>Aanhef</label><br>
+
+        <input type="radio" id="dhr" name="aanhef" value="dhr" checked>
+        <label for="dhr">Dhr.</label>
+
+        <input type="radio" id="mevr" name="aanhef" value="mevr">
+        <label for="mevr">Mevr.</label>
+
+        <br><br>
+
+
+        <!-- Adres -->
+        <label for="straat">Straat met huisnummer</label><br>
+        <input type="text" id="straat" name="straat"><br><br>
+
+        <label for="postcode">Postcode</label><br>
+        <input type="text" id="postcode" name="postcode"><br><br>
+
+        <label for="woonplaats">Woonplaats</label><br>
+        <input type="text" id="woonplaats" name="woonplaats"><br><br>
+
+        <label for="land">Land</label><br>
+        <input type="text" id="land" name="land"><br><br>
+
+
+        <!-- Betaling -->
+        <label for="iban">IBAN-nummer</label><br>
+        <input type="text" id="iban" name="iban"><br><br>
+
+
+        <!-- Type abonnement -->
+        <label>Type abonnement</label><br>
+
+        <input type="radio" id="mobiel" name="abonnement" value="mobiel">
+        <label for="mobiel">Mobiel</label><br>
+
+        <input type="radio" id="glasvezel" name="abonnement" value="glasvezel">
+        <label for="glasvezel">Glasvezel</label><br>
+
+        <input type="radio" id="tv" name="abonnement" value="tv">
+        <label for="tv">TV</label><br><br>
+
+
+        <!-- Abonnementgegevens -->
+        <label for="startdatum">Datum van ingang abonnement</label><br>
+        <input type="date" id="startdatum" name="startdatum"><br><br>
+
+        <label for="looptijd">Looptijd abonnement</label><br>
+        <input type="text" id="looptijd" name="looptijd"><br><br>
+
+        <label for="gebruikers">Aantal gebruikers op het abonnement</label><br>
+        <input type="number" id="gebruikers" name="gebruikers"><br><br>
+
+        <label for="email">E-mailadres</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="wachtwoord">Wachtwoord aanmaken</label><br>
+        <input type="password" id="wachtwoord" name="wachtwoord"><br><br>
+
+
+        <!-- Verzenden -->
+        <input type="submit" value="Sluit abonnement af.">
+
+    </form>
+
+</body>
+</html>
